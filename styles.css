@@ -36,6 +36,7 @@ header a:active {
 }
 
 main {
+    margin: 0px 15%;
     padding: 40px;
     flex: 1;
 }
@@ -83,10 +84,13 @@ h1 {
     padding-bottom: 20px;
 }
 
+.skills h2 {
+    font-size: 25px;
+}
 
 table {
     border-collapse: collapse;
-    width: 80%;
+    width: 100%;
 }
 
 td, th {
@@ -110,7 +114,8 @@ th {
     color: #ecf1a6;
 }
 table caption {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
     padding-bottom: 10px;
     text-align: start;
 }
