@@ -22,7 +22,7 @@ header, footer {
     color: #ecf1a6;
 }
 
-.header-resume {
+.footer-resume {
     display: flex;
     justify-content: space-between;
 }
@@ -46,10 +46,6 @@ main {
     flex: 1;
 }
 
-h1 {
-    font-size: 40px;
-    margin-bottom: 15px;
-}
  h2, h2 {
     margin-bottom: 10px;
  }
@@ -62,6 +58,32 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
  }
+
+.summary-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.contact-right {
+    flex-shrink: 0;
+    flex-grow: 2;
+}
+
+address, p {
+    font-size: 18px;
+}
+
+.contact-right  p {
+    line-height: 1.5;
+}
+
+.summary-left {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 70%
+}
+
 
  .education h3 {
     padding-bottom: 5px;
@@ -143,7 +165,14 @@ table caption {
     text-align: start;
 }
 
+figcaption {
+    font-variant: small-caps;
+    margin-bottom: 8px;
+}
 
+audio {
+    margin-top: 20px;
+}
 
 footer p {
     text-align: end;
@@ -159,19 +188,12 @@ footer p {
     margin: 30px 0px;
 }
 
-.cover-letter-main > h1 {
-    margin-bottom: 50px;
-}
+.cover-letter-main > h1, h1, .left-side h1, hr {
+    margin-bottom: 40px;
+    font-size: 45px;
 
-/* label {
-    display: inline-block;
-    width: 190px;
-    
-}
 
-.radio label {
-    width: 40px;
-} */
+}
 
 .main-career-goals {
     margin: 0px 5%;
@@ -189,10 +211,6 @@ footer p {
     font-size: 1.15em;
     line-height: 1.35;
     padding-bottom: 30px;
-}
-
-.left-side h1, hr {
-    margin-bottom: 40px;
 }
 
 

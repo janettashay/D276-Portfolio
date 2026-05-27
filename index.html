@@ -7,15 +7,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
         <body>
-                <header class="header-resume">
-                    <div>
-                        <p id="date"></p>
-                        <script>
-                            const d = new Date();
-                            document.getElementById("date").innerHTML = d;
-                            console.log("This is my message to the console.");
-                        </script>
-                    </div>
+                <header>
                     <nav>
                         <ul>
                             <li><a href="cover-letter.html">Cover Letter</a></li>
@@ -26,11 +18,24 @@
         
                 <main>
                     <h1>Rob Sacamano</h1>
-                    <article>
-                        <h2>Summary</h2>
-                        <p>An analytical and results-driven software engineer with experience in application development, scripting and coding, automation, web application design, product testing and deployment, UI testing, and requirements gathering. Proven
-                        aptitude for implementing innovative solutions to streamline and automate processes, enhance efficiency, improve customer satisfaction, and achieve financial savings.</p>
-                        </article>                 
+                    <hr>
+                    <div class="summary-container">
+                        <article class="summary-left">
+                            <h2>Summary</h2>
+                            <p>An analytical and results-driven software engineer with experience in application development, scripting and coding, automation, web application design, product testing and deployment, UI testing, and requirements gathering. 
+                            <!-- Proven
+                            aptitude for implementing innovative solutions to streamline and automate processes, enhance efficiency, improve customer satisfaction, and achieve financial savings. -->
+                        </p>
+                        </article> 
+                        <section class="contact-right">
+                            <h2>Contact Info</h2>
+                            <address>
+                               <p>r.sacamano@email.com</p>
+                                <p>800-569-9988</p>
+                                <address>100 Somewhere Drive SE<br> Sometown, CA 99225</address>
+                        </section>
+                    </div>
+                                        
                     <hr>
                     <section class="education">
                         <h2>Education </h2>
@@ -48,10 +53,10 @@
                         <h4>Programmer Analyst, 2018-2026</h4>
                         <ul>
                             <li>Architected financial services hotline app for 8 countries in Central and South America.</li>
-                        <li> Implemented benefits hotline app rollout every year for US and Canada serving 1.4 million employees.</li> 
+                        <li> Implemented benefits hotline app rollout every year for US and Canada serving <em>1.4 million employees</em>.</li> 
                         <li>Optimized manual application tuning process with Java to fetch and process data, making process 20x faster.</li>
                             <li>Connected user-facing web applications with SQL DBs using Spring REST web services.</li>
-                            <li>Integrated agent monitoring system, improving call center efficiency by 30%. [Employee of the Month - Jan 2023]</li>
+                            <li>Integrated agent monitoring system, improving call center efficiency by <strong>30%</strong>. [Employee of the Month - Jan 2023]</li>
                         </ul>
                         <hr>
                     </section>
@@ -111,7 +116,15 @@
                 </main>
             
             
-                <footer>
+                <footer class="footer-resume">
+                     <div>
+                        <p id="date"></p>
+                        <script>
+                            const d = new Date();
+                            document.getElementById("date").innerHTML = d;
+                            console.log("This is my message to the console.");
+                        </script>
+                    </div>
                     <p>Copyright &copy; 2026 Janetta Henderson</p>
                 </footer>
             
