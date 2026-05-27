@@ -13,13 +13,18 @@ header ul {
     display: flex;
     justify-content: end;
     list-style-type: none;
-    gap: 10px;
+    gap: 25px;
 }
 
 header, footer {
     background-color: #121a44;
     padding: 20px;
     color: #ecf1a6;
+}
+
+.header-resume {
+    display: flex;
+    justify-content: space-between;
 }
 
 header a {
@@ -50,6 +55,7 @@ h1 {
  }
  article p {
     margin-bottom: 25px;
+    font-size: 1.15em;
  }
 
  hr {
@@ -86,6 +92,23 @@ h1 {
 
 .skills h2 {
     font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.skills table {
+    margin-bottom: 20px;
+}
+
+.skills a {
+    color: black;
+}
+
+.skills a:hover {
+    color: gray;
+}
+
+.skills a:visited {
+    color: black;
 }
 
 table {
@@ -126,3 +149,100 @@ footer p {
     text-align: end;
 }
 
+.cover-letter-main section > p {
+    padding-bottom: 30px;
+    font-size: 1.25em;
+    line-height: 1.35;
+}
+
+.cover-letter-main  hr {
+    margin: 30px 0px;
+}
+
+.cover-letter-main > h1 {
+    margin-bottom: 50px;
+}
+
+/* label {
+    display: inline-block;
+    width: 190px;
+    
+}
+
+.radio label {
+    width: 40px;
+} */
+
+.main-career-goals {
+    margin: 0px 5%;
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+
+.credit {
+    font-variant: small-caps;
+}
+
+.goals > p {
+    font-size: 1.15em;
+    line-height: 1.35;
+    padding-bottom: 30px;
+}
+
+.left-side h1, hr {
+    margin-bottom: 40px;
+}
+
+
+label {
+    display: block;
+}
+
+.radio input[type=radio], label {
+    display: inline-block;
+}
+
+input[type=text], input[type=email], input[type=tel], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+}
+
+fieldset {
+    border: none;
+    padding: 5px 0px;
+}
+
+form {
+    background-color: #f0dbd6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button[type=submit] {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #8697ed;
+    color: #ecf1a6;
+    font-size: 1.25em;
+    font-weight: bold;
+
+}
+
+img {
+    width: 450px;
+    margin: 8px 0;
+    
+}
+
+video {
+    width: 100%;
+}

@@ -7,22 +7,30 @@
         <link rel="stylesheet" href="styles.css">
     </head>
         <body>
-                <header>
+                <header class="header-resume">
+                    <div>
+                        <p id="date"></p>
+                        <script>
+                            const d = new Date();
+                            document.getElementById("date").innerHTML = d;
+                            console.log("This is my message to the console.");
+                        </script>
+                    </div>
                     <nav>
                         <ul>
                             <li><a href="cover-letter.html">Cover Letter</a></li>
-                            <li><a href="career-goals.html">Career Goals</a></li>
+                            <li><a href="goals.html">Career Goals</a></li>
                         </ul>
                     </nav>
                 </header>
         
                 <main>
-                    <h1>Candi Lane</h1>
+                    <h1>Rob Sacamano</h1>
                     <article>
                         <h2>Summary</h2>
                         <p>An analytical and results-driven software engineer with experience in application development, scripting and coding, automation, web application design, product testing and deployment, UI testing, and requirements gathering. Proven
                         aptitude for implementing innovative solutions to streamline and automate processes, enhance efficiency, improve customer satisfaction, and achieve financial savings.</p>
-                    </article>
+                        </article>                 
                     <hr>
                     <section class="education">
                         <h2>Education </h2>
@@ -43,13 +51,13 @@
                         <li> Implemented benefits hotline app rollout every year for US and Canada serving 1.4 million employees.</li> 
                         <li>Optimized manual application tuning process with Java to fetch and process data, making process 20x faster.</li>
                             <li>Connected user-facing web applications with SQL DBs using Spring REST web services.</li>
-                            <li>Integrated agent monitoring system, improving call center efficiency by 30%. [Employee of the Month - Dec 2023]</li>
+                            <li>Integrated agent monitoring system, improving call center efficiency by 30%. [Employee of the Month - Jan 2023]</li>
                         </ul>
                         <hr>
                     </section>
 
                     <section class="skills">
-                        <h2>Technical Skills</h2>
+                        <h2>Technical Skills | Project</h2>
                         <table>
                             <tr>
                                 <td>JavaScript</td>
@@ -63,10 +71,14 @@
                                 <td>Databases</td>
                                 <td>SQL, MongoDB</td>
                             </tr>
+                            <tr>
+                                <td>Personal project</td>
+                                <td><a href="https://www.wikipedia.com" target="_blank">Website</a></td>
+                            </tr>
                         </table>
                     </section>
 
-                    <section>
+                    <div>
                         <table>
                             <caption>References</caption>
                             <tr>
@@ -95,7 +107,7 @@
                             </tr>
                             
                         </table>
-                    </section>
+                    </div>
                 </main>
             
             
