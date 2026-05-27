@@ -177,7 +177,7 @@ footer p {
     margin: 0px 5%;
     display: flex;
     gap: 40px;
-    align-items: flex-end;
+    align-items: space-between;
 }
 
 
@@ -223,6 +223,7 @@ form {
     background-color: #f0dbd6;
     padding: 10px;
     border-radius: 5px;
+    height: 100%;
 }
 
 button[type=submit] {
@@ -243,6 +244,6 @@ img {
     
 }
 
-video {
+/* video {
     width: 100%;
-}
+} */
