@@ -22,7 +22,7 @@ header, footer {
     color: #ecf1a6;
 }
 
-.footer-resume {
+#footer-resume {
     display: flex;
     justify-content: space-between;
 }
@@ -62,12 +62,12 @@ main {
 .summary-container {
     display: flex;
     justify-content: space-between;
-    gap: 150px;
+    flex-wrap: wrap;
+    gap: 100px;
 }
 
-.contact-right {
-    flex-shrink: 0;
-    flex-grow: 2;
+.summary-left {
+    flex: 1;
 }
 
 address, p {
@@ -77,13 +77,6 @@ address, p {
 .contact-right  p {
     line-height: 1.5;
 }
-
-.summary-left {
-    flex-shrink: 1;
-    flex-grow: 1;
-    flex-basis: 70%
-}
-
 
  .education h3 {
     padding-bottom: 5px;
@@ -213,6 +206,9 @@ footer p {
     padding-bottom: 30px;
 }
 
+span {
+    border-bottom: 2px dotted gray;
+}
 
 label {
     display: block;
@@ -239,7 +235,7 @@ fieldset {
 
 form {
     background-color: #f0dbd6;
-    padding: 10px;
+    padding: 20px 20px;
     border-radius: 5px;
     height: 100%;
 }
@@ -253,7 +249,6 @@ button[type=submit] {
     color: #ecf1a6;
     font-size: 1.25em;
     font-weight: bold;
-
 }
 
 img {
@@ -262,6 +257,14 @@ img {
     
 }
 
-/* video {
-    width: 100%;
-} */
+blockquote {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.blockquote-cite {
+    text-align: right;
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 10px;
+}

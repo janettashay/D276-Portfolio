@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body id="career-goals">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Resume</a></li>
-                    <li><a href="cover-letter.html">Cover Letter</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Resume</a></li>
+                <li><a href="cover-letter.html">Cover Letter</a></li>
+            </ul>
+        </nav>
+    </header>
     <main class="main-career-goals"> 
         <div class="left-side">
             <h1>Career Goals</h1>
@@ -23,46 +23,46 @@
                 <p> Vivamus at consectetur ligula, ut finibus diam. Sed lacinia sagittis iaculis. Mauris sollicitudin lectus ac nibh malesuada, quis tincidunt ipsum faucibus. Praesent fermentum quis ex eu volutpat. Vivamus ultrices, nunc eget lacinia convallis, est lorem scelerisque arcu, nec varius sapien magna id ante. Mauris a pharetra lacus. Duis in semper mi. Quisque vel massa in sem auctor tincidunt non ac nunc. Suspendisse potenti. Quisque sodales sodales erat, ac vestibulum quam porttitor gravida. In ultricies non metus in efficitur. In ut risus lectus. Phasellus et tincidunt dolor. Aenean est orci, lobortis vitae hendrerit fringilla, cursus consectetur purus. Donec in nunc eleifend, iaculis dolor id, egestas lacus. Sed commodo a erat quis vulputate.</p>
 
                  <p>Aliquam efficitur ligula pharetra urna interdum, sed venenatis augue laoreet. Sed vulputate lobortis leo, sit amet egestas tortor maximus in. Integer congue ipsum ante, at vulputate tellus faucibus vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus bibendum tincidunt elit, a porttitor orci pulvinar quis. Integer mollis malesuada libero a gravida. Maecenas vel dapibus nisi, quis posuere ante. Phasellus ac augue fringilla, vulputate est non, consectetur lacus. Phasellus gravida odio lorem, quis tincidunt dolor varius nec. Vivamus ac tristique arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-        
-                <video width="550" controls>
-                    <source src="./media/232538_medium.mp4" type="video/mp4">
-                </video>
-                <figcaption><cite>source: pixaby darioxls</cite></figcaption>
+                <figure>
+                    <video width="550" controls>
+                        <source src="./media/232538_medium.mp4" type="video/mp4">
+                    </video>
+                    <figcaption><cite>source: pixaby darioxls</cite></figcaption>
+                </figure>
             </section>
         </div>
-        
+
         <div class="right-side">
             <section>    
-                <img src="./images/stocksnap-people-2570596.jpg" alt="black and white cat" width="450"><br>
-                <figcaption><cite>source: pixaby stocksnap</cite></figcaption>
-            <audio controls muted>
-                <source src="./media/nesrality-ludwig-van-beethoven-moonlight-sonata-classical-remix-8097.mp3" type="audio/mp3">
-            </audio>
-            <figcaption><cite>source: pixaby nesby</cite></figcaption> 
-            <h2>Contact Me</h2>
+                <figure>
+                    <img src="./images/stocksnap-people-2570596.jpg" alt="black and white cat" width="450">
+                     <figcaption><cite>source: pixaby stocksnap</cite></figcaption>
+                </figure>
+                <figure>
+                    <audio controls muted>
+                         <source src="./media/nesrality-ludwig-van-beethoven-moonlight-sonata-classical-remix-8097.mp3" type="audio/mp3">
+                    </audio>
+                    <figcaption><cite>source: pixaby nesby</cite></figcaption> 
+                </figure>
+                <h2>Contact Me</h2>
                 <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
                 
                         <label for="first">First Name:</label>
                         <input type="text" id="first" name="First Name" placeholder="Your first name" required>
-                   
-                                       
+                 
                         <label for="last">Last Name:</label>
                         <input type="text" id="last" name="Last Name" placeholder="Your last name" required>
-                
-                    
+            
                         <label for="company">Company Name:</label>
-                        <input type="text" id="company" name="Company Name">
-                    
+                        <input type="text" id="company" name="Company Name" required>
                     
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="Email" size="20" maxlength="30" placeholder="example@email.com" required>
                     
-                
-                        <label for="phone">Phone number:</label>
-                        <input type="tel" id="phone" name="Phone number" placeholder="(###) ###-####">
-                
-
-                    <label for="contact-method">Best Contact Method</label>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="Phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="(###) ###-####" required>
+            
+                    <label for="contact-method">Best Contact Method:</label>
                         <select id="contact-method" name="method">
                             <option value="phone">Phone</option>
                             <option value="Email">Email</option>
@@ -70,19 +70,19 @@
                         </select>
                     
                     <fieldset>
-                        <legend>Best Contact time:</legend>
-                    <div class="radio">
-                        <input type="radio" id="am" name="contact-time" value="a.m." checked>
-                        <label for="am">a.m.</label>
-                        <input type="radio" id="pm" name="contact-time" value="p.m.">
-                        <label for="pm">p.m.</label>
-                        <input type="radio" id="anytime" name="contact-time" value="anytime">
-                        <label for="anytime">anytime</label>
-                    </div>
+                        <legend>Best Contact Time:</legend>
+                        <div class="radio">
+                            <input type="radio" id="am" name="contact-time" value="a.m." checked>
+                            <label for="am">a.m.</label>
+                            <input type="radio" id="pm" name="contact-time" value="p.m.">
+                            <label for="pm">p.m.</label>
+                            <input type="radio" id="anytime" name="contact-time" value="anytime">
+                            <label for="anytime">anytime</label>
+                        </div>
                     </fieldset>
         
-                        <label for="message">Message:</label>
-                        <textarea id="message" cols="40" rows="5"></textarea>
+                     <label for="message">Message:</label>
+                    <textarea id="message" cols="40" rows="5"></textarea>
                     
                     <p>
                         <button type="submit">Submit</button>
